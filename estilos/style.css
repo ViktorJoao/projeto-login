@@ -37,10 +37,16 @@ section#login{
     transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.363);
+
+    transition: width .1s, height .1s;
 }
 section#login > div#img{
     display: block;
     background: #0D4A3A url('../imagens/fundo.jpg') no-repeat;
     background-size: cover;
     height: 200px;
+}
+div#form{
+    padding: 10px;
+    display: block;
 }
